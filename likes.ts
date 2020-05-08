@@ -1,5 +1,5 @@
-class Likes {
-  constructor(public count: number, private selected: boolean) {}
+export class Likes {
+  constructor(private count: number, private selected: boolean) {}
   draw() {
     console.log("Count:", this.count);
     console.log("Selected:", this.selected);
@@ -11,22 +11,22 @@ class Likes {
   }
 }
 
-let likes = new Likes(666, false);
-console.log();
-console.log("Initial state");
-likes.draw();
+// let likes = new Likes(666, false);
+// console.log();
+// console.log("Initial state");
+// likes.draw();
 
-likes.clicked();
-console.log();
-console.log("First click");
-likes.draw();
+// likes.clicked();
+// console.log();
+// console.log("First click");
+// likes.draw();
 
-likes.clicked();
-console.log();
-console.log("Second click");
-likes.draw();
+// likes.clicked();
+// console.log();
+// console.log("Second click");
+// likes.draw();
 
-likes.clicked();
-console.log();
-console.log("Third click");
-likes.draw();
+// likes.clicked();
+// console.log();
+// console.log("Third click");
+// likes.draw();
